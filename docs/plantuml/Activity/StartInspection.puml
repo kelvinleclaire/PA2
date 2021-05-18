@@ -1,0 +1,27 @@
+@startuml (Start new inspection)
+Title Start new inspection
+
+start
+:Logged in as worker;
+:Click show inspection plans;
+:Click the inspection plan to start;
+:Every value and tolerance will be shown;
+repeat
+  :Click the input of the value to be measured;
+  :Input value<
+  :Submit value with enter;
+  :Check if value is in tolerance;
+  if (Value is in tolerance?) then (yes)
+    :Write pass in Result>
+  else (no)
+    :Write fail in Result>
+  endif
+repeat while (every value and serialnumber is entered?) is (no) not (yes)
+  :Save to PDF button will be enabled;
+  :Click save to pdf;
+  :System genererates
+  PDF and downloads it>
+stop
+
+
+@enduml

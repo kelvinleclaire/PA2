@@ -1,0 +1,84 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+package InspectionPlanPreWorker {
+
+
+  class EditInspectionPlanFromDB {
+    ..props ..
+    inspectionPlan: IInspectionPlanFromDB
+    ..consts ..
+    inspectionPlan: IInspectionPlanFromDB
+    ..functions ..
+    useEffect()
+    onValueUpdated(newValueArray: IValueAndTolerance[])
+    onValuesAdded(newValues: IValueAndTolerance)
+    addValuesToArray(v: number, t: [number, number])
+    onValueUpdateHandler(n: number, index: number)
+    onToleranceUpdateHandler(n: [number, number], index: number)
+    saveToDB()
+    changeNameHandler(name: string)
+    partNumberChangeHandler(partNumber: string)
+  }
+
+  class EditInspectionPlanFromDBRow {
+    ..props ..
+    valsAndTols: IValueAndTolerance
+    index: number
+    onValueUpdate: (n: number, i: number) => void
+    onToleranceUpdate: (n: [number, number], i: number) => void
+    ..consts ..
+    value: number
+    tolerance: [number, number]
+    ..functions ..
+    useEffect()
+    onToleranceSaveHandler(n: [number,number])
+    onValueSaveHandler(n: number)
+  }
+
+  class AddNewValuesToInspectionPlan {
+    ..props ..
+    onSaveHandler: (v: number, t:[number, number]) => void,
+    ..consts ..
+    addNewRowActive: boolean
+    newValue: [number, number]
+    newTolerance: [number, number]
+    errorMessage: string
+    tolerance: [number, number]
+    ..functions ..
+    onClickHandler()
+    onSaveNewValues()
+    resetAddingNewValues()
+    onToleranceInputChange(n:number , i: number)
+  }
+
+  class ChangeDetails {
+    ..props ..
+    name: string | undefined ,
+    partNumber?: string | undefined,
+    onNameChange: (s: string) => void;
+    onPartNumberChange: (s: string) => void;
+    ..consts ..
+    partNumberChanging: boolean
+    nameChanging: boolean
+    nameInput: string
+    partNumberInput: string
+    ..functions ..
+    partNumberSaveHandler()
+    onChangeNameSaveHandler()
+  }
+
+  class UploadInspectionPlan {
+    ..consts..
+    inspectionPlanFromDB
+  }
+
+}
+
+EditInspectionPlanFromDB --> EditInspectionPlanFromDBRow: uses
+EditInspectionPlanFromDB --> ChangeDetails: uses
+EditInspectionPlanFromDB --> AddNewValuesToInspectionPlan: uses
+EditInspectionPlanFromDB --> UploadInspectionPlan: uses
+
+@enduml

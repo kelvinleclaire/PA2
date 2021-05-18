@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface IUser {
+  password: string
+  email: string
+  role: Role
+}
+
+@enduml

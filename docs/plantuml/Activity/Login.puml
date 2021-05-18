@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+
+:Start the app;
+:Enter email<
+:Enter password<
+:Click submit;
+if (Check credentials) then (correct)
+  :Hide error message>
+  if (Role == Worker) then (true)
+    :Redirect to woker page;
+  elseif (Role == Preworker) then (true)
+    :Redirect to prewoker page;
+  elseif (Role == Admin) then (true)
+    :Redirect to admin page;
+  else (unknown role)
+    :Show error message>
+  endif
+else (incorrect)
+  :Show error message>
+endif
+
+stop
+
+@enduml

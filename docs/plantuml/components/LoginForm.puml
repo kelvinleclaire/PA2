@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class LoginForm {
+  .. Start consts ..
+  IUser[] users
+  email
+  password
+  errorMsg
+  history
+  setEmail()
+  setPassword()
+  setErrorMsg()
+  openWorker()
+  openPreWorker()
+  .. End consts ..
+  HandleSubmit(event: any)
+  finishLogin(role: any)
+  handleEmailChange(event: any)
+  handlePasswordChange(event: any)
+}
+
+@enduml
+components

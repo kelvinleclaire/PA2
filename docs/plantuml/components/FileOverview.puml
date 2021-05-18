@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class FileOverview {
+  .. Start consts ..
+  files
+  selectedPlan
+  history
+  setFiles()
+  setSelectedPlan
+  openPlanPage()
+  .. End consts ..
+  FileClickListener(currentPlan: IInspectionPlan)
+}
+
+@enduml
+components

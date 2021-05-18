@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+actor Worker as w
+actor System as s
+
+package InspectionPlanWorker {
+  w --> (chooses inspection plan)
+  w --> (enters value for parts to be measured)
+  w --> (enters serial number of part)
+  (checks if every value is entered) <-- s
+  (generates pdf and starts downlaod to FS of Worker) <-- s
+  (Checks if value is in tolerance) <-- s
+  (Checks if value is in tolerance) <-- (Write pass or fail in result): <<includes>>
+  (Checks if serial number is entered) <-- s
+  w --> (requests pdf of finished inspectionplan)
+}
+
+@enduml

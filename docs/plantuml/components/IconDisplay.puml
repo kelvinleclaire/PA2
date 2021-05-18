@@ -1,0 +1,12 @@
+@startuml
+  class IconDisplay {
+    ..props ..
+    icon: string
+    ..consts ..
+    icon: string
+    ..functions ..
+    useEffect(): void
+    PassIcon(): JSX.Element
+    FailIcon(): JSX.Element
+  }
+@enduml

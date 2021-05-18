@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+left to right direction
+
+actor Preworker as prw
+actor System as sys
+
+
+
+
+package InspectionPlanPreWorker {
+prw -> (PreworkerPage)
+(PreworkerPage) --> (FileUpload)
+prw --> (Plan Overview)
+(Plan Overview) --> (BackendCommunication): uses
+prw --> (Planpage)
+(Planpage) --> (Plan Overview) : uses
+(FileUpload) --> (BackendCommunication) : uses
+
+(BackendCommunication) <-- sys
+
+}
+
+@enduml

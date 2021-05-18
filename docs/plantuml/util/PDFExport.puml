@@ -1,0 +1,10 @@
+@startuml PDFExport
+
+class PDFExport() {
+  ..functions..
+  saveStringArrAsPDF(nameOfPdf: string, newLines: string[]): boolean;
+  saveInspectionPlanWithMeasures( nameOfPdf: string, inspectionPlan: IInspectionPlanInProgress,
+  nameOfInspector: string, id?: string): boolean
+}
+
+@enduml

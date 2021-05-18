@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class PlanPage {
+  .. Start consts ..
+  currentPlanString
+  .. End consts ..
+}
+
+@enduml
+components

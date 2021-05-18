@@ -1,0 +1,7 @@
+@startuml
+interface IValueAndTolerance
+{
+  value: number,
+  tolerance: [number, number]
+}
+@enduml

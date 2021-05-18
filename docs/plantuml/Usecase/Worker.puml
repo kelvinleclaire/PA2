@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+Worker -> (WorkerPage)
+(WorkerPage) --> (FileOverview)
+(FileOverview) --> (BackendCommunication) : uses
+(FileOverview) --> (Planpage) : opens
+
+
+@enduml

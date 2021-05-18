@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+
+
+start
+
+:Open Page;
+if(Choose Option) then (Upload new Plan)
+  :open FileUpload;
+  :Upload File<
+  :Confirm upload;
+  if(Try to Upload) then (success)
+    :Show Success Message;
+    :open Edit inspectionplan page;
+    :change or add details <
+    :change or add values <
+    :save updatet plan;
+  else (fail)
+    :Show Error Message;
+  endif
+else (Change Plan)
+  :tbd;
+endif
+
+stop
+
+@enduml
+

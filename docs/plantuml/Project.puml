@@ -1,0 +1,12 @@
+@startuml
+enum Role {
+    worker
+    preworker
+    admin
+}
+interface IUser {
+    +password: string
+    +email: string
+    +role: Role
+}
+@enduml

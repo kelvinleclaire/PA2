@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+
+:Open Page;
+if(Choose Option) then (Start New Inspection)
+  :open FileOverview;
+  :Select Plan from List>
+  :Redirect to PlanPage;
+else (Continue Inspection)
+  :tbd;
+endif
+
+stop
+
+@enduml

@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class FileUpload {
+  .. Start consts ..
+  uploadedFile
+  fileIdInput
+  nameInput
+  feedbackMessage
+  setUploadedFile()
+  setFileIdInput()
+  setFeedbackMessage()
+  .. End consts ..
+  onChangeListener(e: any)
+  fileIdInputHandler(e: any)
+  fileNameInputHandler(e: any)
+  onUploadConfirm()
+}
+
+@enduml
+components

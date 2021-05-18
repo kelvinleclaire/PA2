@@ -1,0 +1,28 @@
+{
+  "inspectionPlanName": "STG_MACDPS_01_020521",
+  "valuesAndTolerances": [
+    {
+      "value": 50,
+      "tolerance": [1,-0.2]
+    },
+    {
+      "value": 10,
+      "tolerance": [1,-1]
+    },
+    {
+      "value": 5,
+      "tolerance": [2,-2]
+    },{
+      "value": 50,
+      "tolerance": [0.1, -0.05]
+    },
+    {
+      "value": 10,
+      "tolerance": [1,-1]
+    },
+    {
+      "value": 5,
+      "tolerance": [5,-5]
+    }
+  ]
+}

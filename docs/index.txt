@@ -1,0 +1,522 @@
+= Digital check station macio FH Kiel 2021
+
+Kelvin Leclaire <kelvin.leclaire@student.fh-kiel.de>
+Christian Paulsen <christian.paulsen@student.fh-kiel.de>
+Kenzo Rohde <kenzo.rohde@student.fh-kiel.de>
+Arne Solty <arne.solty@student.fh-kiel.de>
+Julian Wittorf <julian.wittorf@student.fh-kiel.de>
+
+:toc:
+:diagram-cachedir: .asciidoctor
+:imagesdir: images
+:diagramsdir: diagrams
+:plantumlsdir: plantuml
+
+
+== Introduction and goals
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+=== Initial task and overall goals
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+=== Quality goals
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+
+
+
+== Glossary and definitions
+
+To improve communication and reduce misunderstandings several terms are collected and explained in a centralized space.
+Maintaining a single source of information is key,
+therefore please link:https://confluence-dmz.macio.de/display/MACDPS/Glossar[refer to Confluence for the full glossary].
+
+If you are unclear about a term, simply add it to the glossary and @mention your supervisor or Product Owner Sabine Hipp.
+
+
+
+
+
+== Boundary conditions
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+=== Hardware and software
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+=== Events, artifacts and workflows
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+=== Repository directory and file structure
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+
+
+
+== Application
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+=== Libraries
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+=== Elements in detail with examples
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+
+
+
+== Technological concepts
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+=== Testing
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+=== Security
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+=== Logging
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+=== Usabilty
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+=== Interfaces
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+
+
+
+== AsciiDoc3 and PlantUML
+
+We are using link:https://www.asciidoc3.org[AsciiDoc3] for the technical documentation.
+It is installed in `adoc/` and **requires Python 3.6 or higher**.
+
+You also need `xsltproc`, `fop` and some other dependencies installed on your system.
+Please link:https://asciidoc3.org/quickstart.html[take a look at the requirements], first tests where made with Windows 10 and WSL.
+
+=== Dependencies for Diagrams
+
+In order to process PlantUML we need to extend AsciiDoc with link:https://asciidoctor.org/docs/asciidoctor-diagram/[Asciidoctor].
+link:https://www.informatik.htw-dresden.de/~zirkelba/notes/se/asciidoc-installation-and-configuration/#_asciidoctor[We need Ruby and Java to install Asciidoctor and some further packages]:
+Lean how to use link:https://www.informatik.htw-dresden.de/~zirkelba/praktika/se/arbeiten-mit-git-und-asciidoc/praktikumsaufgaben-teil-4.html[PlantUML to create diagrams inside of AsciiDoc].
+
+[source]
+----
+sudo gem install asciidoctor
+sudo gem install asciidoctor-pdf
+sudo gem install asciidoctor-diagram
+sudo gem install graphviz
+sudo gem install text-hyphen
+----
+
+
+=== Using Windows, running into other troubles or want some IDE support?
+
+* link:https://www.informatik.htw-dresden.de/~zirkelba/praktika/se/arbeiten-mit-git-und-asciidoc/[Very nice guide in German for AsciiDoc, Asciidoctor and PlantUML]
+* link:https://github.com/tigion/htw-se-practical-asciidoc-diagram-demo[Demo for PlantUML and Asciidoctor]
+* link:https://www.asciidoc3.org/windows.html[Tipps for AsciiDoc3 with Windows]
+* link:https://www.informatik.htw-dresden.de/~zirkelba/notes/se/asciidoc-installation-and-configuration/#_visual_studio_code_2[**IDE Tipps for Visual Studio Code**]
+* link:https://asciidoc3.org/cheatsheet.html[Basic Cheatsheet]
+* link:https://powerman.name/doc/asciidoc[Extended Cheatsheet]
+* link:https://asciidoctor.org/docs/asciidoc-writers-guide/[A basic Guide]
+* link:https://www.vogella.com/tutorials/AsciiDoc/article.html[Another basic Guide]
+
+
+=== Updating/Generating the docs
+
+**tl;dr**: Simply run `cd reactts && npm run doc` to first generate PlantUML diagrams from Typescript and regenerate HTML and PDF with Asciidoc.
+*You may have issues when running Windows and the wrong Python version, see below.*
+
+On Windows you can recompile the Asciidocs (without converting TypeScript) with `cd reactts && npm run asciidocWin`.
+
+'''
+
+We are creating `.txt` files in `docs/` and compile them to HTML/PDF with AsciiDoc inside `adoc/`.
+You've added some documentation and want to update the docs?
+
+**Watch out for the correct Python version and slash vs. backslashes, depending on your OS!**
+
+1. `cd adoc`
+2. `asciidoctor -a toc -n -r asciidoctor-diagram -b html5 -D ../docs/out ../docs/index.txt`
+* Windows: `asciidoctor -a toc -n -r asciidoctor-diagram -D ..\docs\out ..\docs\index.txt`
+3. `asciidoctor-pdf -a toc -n -r asciidoctor-diagram -D ../docs/out ../docs/index.txt`
+* Windows: `asciidoctor-pdf -a toc -n -r asciidoctor-diagram -D ..\docs\out ..\docs\index.txt`
+
+
+=== Generating PlantUML (class) diagrams from Typescript
+
+We can generate PlantUML diagrams from our TS code with link:https://github.com/bafolts/tplant[tplant].
+Simply run `cd reactts && npm run ts2p` from the terminal.
+We can also generate single PlantUML diagrams like this:
+`cd reactts && node_modules/tplant/dist/index.js --input src/someFile.tsx --output ../docs/plantuml/SomeDiagram.puml`
+
+However, there are a few drawbacks/notes to be aware of:
+1. PlantUML mainly works with classes, the function-structure of react is not recognized.
+2. Classes, Enums etc. inside a `.tsx` file are recognized.
+3. The react components are not handled, link:https://github.com/bafolts/tplant/issues/37[feature request from october 2020 still pending].
+
+
+=== Folder structure:
+
+[source]
+----
+docs
+│   index.txt               # Source documentation file to edit
+│
+└─── .asciidoctor           # Generated cache files from Asciidoctor
+|    └─── diagrams          # Generated cache files from (PlantUML) diagrams
+|
+└─── out                    # Generated documentation files from Asciidoctor (like index.html, index.pdf)
+|    └─── images            # Generated image files from Asciidoctor
+|         └─── diagrams     # Generated image files from (PlantUML) diagrams
+|
+└─── plantuml               # Source PlantUML diagram files to edit
+         Project.puml       # DON'T TOUCH THIS! Generated PlantUML diagram from TypeScript files (only classes, no components or functions) via npm run ts2p
+----
+
+
+
+
+
+== Git style guide:
+
+The following conventions help us recognize and find commits easily. Additionally, it helps to link Jira and GitHub.
+
+=== Branch names
+
+1. Use the prefix `feature/`
+2. Append the ticket number from Jira, e.g. `feature/6`
+3. Add a short slug for better identification, e.g. `feature/6-UploadFilePlan`
+
+
+=== Commit message
+
+1. Prefixes
+    * `feat`: A new feature
+    * `fix`: A bug fix
+    * `doc`: Changes to documentation
+    * `style`: Formatting, missing semi colons, etc; no code change
+    * `refactor`: Refactoring production code
+    * `test`: Adding tests, refactoring test; no production code change
+    * `chore`: Updating build tasks, package manager configs, etc; no production code change
+2. Subject Header: `prefix: Subject` (max. 70 characters)
+    * Present tense: **change**; not *changed* or *changes*
+3. Body (optional): **what** and **why**; not *how*
+    * Use markdown, if you like.
+
+Credit: https://udacity.github.io/git-styleguide/
+
+
+
+
+
+== Coding style guide:
+
+The code should look like it has been written by a single developer. We accomplish this by following these principles:
+
+* English for everything, name, comments, reviews etc.
+* `CamelCase` for variables, file names etc. EVERYTHING!
+* Brackets of functions, classes etc. go in to the next line, so starting and closing are on the same level
+* Speaking names for variables etc., follow existing conventions!
+* Comment only if needed, try to use link:https://jsdoc.app/[JSDoc format]
+
+
+
+
+
+== Folder structure:
+
+[source]
+----
+src
+│   index.tsx               # Entry point for our app, with router (router can also be seperated).
+│   react-app-env.d.ts
+│
+└─── assets                  # All images and CSS files.
+│    └─── css
+│    └─── images
+│
+└─── components             # All components are stored here. (see React design principles)
+|    └─── layouts            # Global overall layout elements like header, sidebar etc. (shouldn't be reused)
+│
+└─── pages                  # Pages are like components but they represent a page in the router in index.tsx
+│
+└─── tests                  # Testing stuff...
+│
+└─── util                   # fFles that represent functions or helper
+----
+
+
+
+
+
+== React Design principles:
+
+Long version: https://reactjs.org/docs/design-principles.html
+
+=== Components
+
+Are independent elements, that are reusable (Buttons, Logins, etc.).
+Every component must run on their own and needs to be changeable, without changing the component itself.
+(Strings and functions should be saved in props and should be passed by the parent. Like Dependency Injection)
+
+**Only create components, if needed!**
+
+==== Example (pseudocode):
+
+Don't:
+
+[source]
+----
+export default function buttonWithTextAndFunction()
+{
+    clickHandler = ... // defined functionalty of the button, that is not changeable
+
+    return (
+        <button onClick={clickHandler}> buttonText </button>
+    );
+
+} // --> This button can only run a specific functionaly and has a defined text. Therefore, it is not reusable.
+----
+
+Do:
+
+[source]
+----
+export default function buttonWithTextAndFunction({clickhandler, buttonText})
+{
+    return (
+        <button onClick={clickHandler}> ${buttonText} </button>
+    );
+
+} // --> This button gets a clickHandler and text passed by the parent, there are no hardcoded values. Therefore, it is reusable.
+
+----
+
+=== Pages
+
+Pages are entrypoints for the router. Inside a page, various components are called to render the view.
+
+
+
+
+
+== System architecture
+
+[plantuml, "{diagramsdir}/Testdot", svg]
+....
+testdot
+....
+
+[plantuml, "{diagramsdir}/Systemarchitecture", svg]
+....
+include::{plantumlsdir}/Systemarchitecture.puml[]
+....
+
+
+
+
+
+== Use cases
+
+=== Preworker
+[plantuml, "{diagramsdir}/usecase/Preworker", svg]
+....
+include::{plantumlsdir}/Usecase/Preworker.puml[]
+....
+
+=== Worker
+[plantuml, "{diagramsdir}/usecase/Worker", svg]
+....
+include::{plantumlsdir}/Usecase/Worker.puml[]
+....
+
+=== Login
+[plantuml, "{diagramsdir}/usecase/Login", svg]
+....
+include::{plantumlsdir}/Usecase/Login.puml[]
+....
+
+=== Login Vorschlag
+[plantuml, "{diagramsdir}/usecase/Login-vorschlag", svg]
+....
+include::{plantumlsdir}/Usecase/Login-vorschlag.puml[]
+....
+
+=== InspectionPlanWorker
+[plantuml, "{diagramsdir}/usecase/InspectionPlanWorker", svg]
+....
+include::{plantumlsdir}/Usecase/InspectionPlanWorker.puml[]
+....
+
+
+
+
+
+== Models
+
+=== User
+[plantuml, "{diagramsdir}/Model/IUser", svg]
+....
+include::{plantumlsdir}/Model/IUser.puml[]
+....
+
+[plantuml, "{diagramsdir}/util/UserEnum", svg]
+....
+include::{plantumlsdir}/util/UserEnum.puml[]
+....
+
+=== InspectionPlan
+[plantuml, "{diagramsdir}/Model/IInspectionPlan", svg]
+....
+include::{plantumlsdir}/Model/IInspectionPlan.puml[]
+....
+
+[plantuml, "{diagramsdir}/Model/IInspectionPlanFromDb", svg]
+....
+include::{plantumlsdir}/Model/IInspectionPlanFromDb.puml[]
+....
+
+[plantuml, "{diagramsdir}/Model/IInspectionPlanInProgress", svg]
+....
+include::{plantumlsdir}/Model/IInspectionPlanInProgress.puml[]
+....
+
+=== InspectionPlan
+[plantuml, "{diagramsdir}/Model/IValueAndTolerance", svg]
+....
+include::{plantumlsdir}/Model/IValueAndTolerance.puml[]
+....
+
+[plantuml, "{diagramsdir}/Model/IValuesAndTolerancesInProgress", svg]
+....
+include::{plantumlsdir}/Model/IValuesAndTolerancesInProgress.puml[]
+....
+
+
+
+
+
+== Activities
+
+=== Preworker
+[plantuml, "{diagramsdir}/Activity/Preworker", svg]
+....
+include::{plantumlsdir}/Activity/Preworker.puml[]
+....
+
+=== Worker
+[plantuml, "{diagramsdir}/Activity/Worker", svg]
+....
+include::{plantumlsdir}/Activity/Worker.puml[]
+....
+
+=== Login
+[plantuml, "{diagramsdir}/Activity/Login", svg]
+....
+include::{plantumlsdir}/Activity/Login.puml[]
+....
+
+=== StartInspection
+[plantuml, "{diagramsdir}/Activity/StartInspection", svg]
+....
+include::{plantumlsdir}/Activity/StartInspection.puml[]
+....
+
+
+
+
+
+== Components
+
+=== PreworkerPage
+[plantuml, "{diagramsdir}/components/PreworkerPage", svg]
+....
+include::{plantumlsdir}/components/PreworkerPage.puml[]
+....
+
+=== WorkerPage
+[plantuml, "{diagramsdir}/components/WorkerPage", svg]
+....
+include::{plantumlsdir}/components/WorkerPage.puml[]
+....
+
+=== LoginForm
+[plantuml, "{diagramsdir}/components/LoginForm", svg]
+....
+include::{plantumlsdir}/components/LoginForm.puml[]
+....
+
+=== FileOverview
+[plantuml, "{diagramsdir}/components/FileOverview", svg]
+....
+include::{plantumlsdir}/components/FileOverview.puml[]
+....
+
+=== FileUpload
+[plantuml, "{diagramsdir}/components/FileUpload", svg]
+....
+include::{plantumlsdir}/components/FileUpload.puml[]
+....
+
+=== PlanPage
+[plantuml, "{diagramsdir}/components/PlanPage", svg]
+....
+include::{plantumlsdir}/components/PlanPage.puml[]
+....
+
+=== InspectionPlanWorker
+[plantuml, "{diagramsdir}/components/InspectionPlanWorker", svg]
+....
+include::{plantumlsdir}/components/InspectionPlanWorker.puml[]
+....
+
+=== ReadOnlyInput
+[plantuml, "{diagramsdir}/components/ReadOnlyInput", svg]
+....
+include::{plantumlsdir}/components/ReadOnlyInput.puml[]
+....
+

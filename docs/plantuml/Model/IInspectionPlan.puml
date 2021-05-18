@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface IInspectionPlan {
+  file: File
+  name: string
+  id: string
+}
+
+@enduml

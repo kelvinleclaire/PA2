@@ -1,0 +1,9 @@
+@startuml
+
+interface IInspectionPlanFromDB {
+  inspectionPlanName: String
+  pathToPlan: String
+  valuesAndTolerances: [IValueAndTolerance]
+}
+
+@enduml

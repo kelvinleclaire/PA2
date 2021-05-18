@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Worker {
+  .. Start consts ..
+  pageStatus
+  history
+  currentUserState
+  openLoginPage()
+  setPageStatus()
+  .. End consts ..
+  contentSwitch()
+}
+
+@enduml
+components

@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+preworker as pw
+worker as wo
+admin as ad
+Backend as sys
+Database as db
+
+package Login {
+
+    pw --> (Login to website)
+    wo --> (Login to website)
+    ad --> (Login to website)
+
+    (Login to website) --> sys
+    (Check if credentials are valid) <-- sys
+    (Check if credentials are valid) --> (Check DB for User): <<includes>>
+    (Check DB for User) --> db
+
+    (return status of request) <-- sys
+    (return status of request) --> (Login to website)
+
+    (Login to website) "after valid login" --> (forward to overwiew page of role)
+}
+
+
+
+@enduml

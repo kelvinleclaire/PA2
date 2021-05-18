@@ -1,0 +1,24 @@
+{
+  "name": "PA2",
+  "version": "1.0.0",
+  "description": "1. Use the prefix `feature/` \r 2. Append the ticket number from Jira, e.g. `feature/6`\r 3. Add a short slug for better identification, e.g. `feature/6-UploadFilePlan`",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd reactts && npm install && npm start",
+    "backend": "cd backend && npm install && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrausen/PA2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chrausen/PA2/issues"
+  },
+  "homepage": "https://github.com/Chrausen/PA2#readme",
+  "dependencies": {
+    "react-tracked": "^1.7.0"
+  }
+}

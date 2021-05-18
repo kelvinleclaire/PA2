@@ -1,0 +1,27 @@
+@startuml
+package "App" {
+  [Startseite] -> [Login]
+  [Login] -> [Aufgabenauswahl]
+  [Aufgabenauswahl] -> [Administration]
+  [Aufgabenauswahl] --> [Vorarbeit]
+  [Aufgabenauswahl] ---> [Prüfung]
+}
+
+package "Vorarbeit" {
+  [Montageplaner/Vorarbeiter] -> [Prüfplan]
+  [Prüfplan] -> [Messwerte] : Werkstücktyp
+  [Messwerte] -> [Korrektur/Bestätigung]
+}
+
+package "Prüfung" {
+  [Prüfer/Arbeiter] -> [Prüfauftrag]
+  [Prüfauftrag] --> [Prüfplan]
+  [Prüfauftrag] -> [Prüfstück]
+  [Prüfstück] -> [Bluetooth-Messregler]
+  [Bluetooth-Messregler] -> [Report]
+}
+
+package "Administration" {
+  [Admin] -> [Nutzerverwaltung]
+}
+@enduml

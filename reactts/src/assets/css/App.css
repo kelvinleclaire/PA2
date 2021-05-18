@@ -1,0 +1,38 @@
+/* https://www.freecodecamp.org/news/html-page-width-height/ */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#root {
+  height: 100vh;
+}
+
+/* Square box */
+/* https://stackoverflow.com/a/33564894/6649196 */
+.box {
+  position: relative;
+  width: 100%;
+}
+
+.box:before {
+  content: "";
+  display: block;
+}
+
+.box-square {
+  padding-top: 100%;
+}
+
+.box-square-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}

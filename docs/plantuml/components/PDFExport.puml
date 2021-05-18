@@ -1,0 +1,13 @@
+@startuml (PDFExport component)
+
+class PDFexport {
+  ..props ..
+  inspectionPlan: IInspectionPlanInProgress
+  serialNumber?: string
+  ..consts ..
+  nameOfInspector: string
+  ..functions ..
+  onClickHandler(): void
+}
+
+@enduml

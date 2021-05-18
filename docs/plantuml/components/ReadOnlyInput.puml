@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ReadOnlyInput {
+  ..props ..
+  onConfirmInput(string): void
+  confirmInputKey: string
+  value?: string
+  ..consts ..
+  keyboardInputs: string
+  ..functions ..
+  onEnterHandler(e:any): void
+}
+
+@enduml

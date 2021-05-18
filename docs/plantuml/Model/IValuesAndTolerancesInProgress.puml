@@ -1,0 +1,6 @@
+@startuml
+
+interface IValuesAndTolerancesInProgress extends IValuesAndTolerances {
+  measuredVal?: number
+}
+@enduml

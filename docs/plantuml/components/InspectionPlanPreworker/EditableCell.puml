@@ -1,0 +1,25 @@
+@startuml
+
+class EditableCell {
+  .. props..
+  onSaveHandler?: (n: number) => void
+  onArraySaveHandler?: (n: [number, number]) => void
+  value?: number
+  text?: String
+  active?: boolean
+  array?: [number, number]
+  .. consts ..
+  isFocused: boolean
+  inputField: [number, number]
+  .. functions ..
+  useEffect()
+  onClickHandler()
+  onKeyDownHandler(e:any)
+  onInputValueChange(e: any, index?: number)
+  confirmInput()
+  confirmArrayInput()
+  abortInput()
+}
+
+
+@enduml
